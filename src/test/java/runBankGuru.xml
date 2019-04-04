@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Login guru on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="2.46" />
+		<parameter name="url" value="http://demo.guru99.com/v4" />
+		<classes>
+			<!-- <class name="com.bankguru.testcase.LogInScript" /> -->
+			<!-- <class name="com.bankguru.testcase.NewCustomerScript" /> -->
+			<class name="com.bankguru.testcase.EditCustomerScript" />
+		</classes>
+	</test>
+	<!-- <test name="Login guru on Firefox"> -->
+	<!-- <parameter name="browser" value="firefox" /> -->
+	<!-- <parameter name="version" value="0.21.0" /> -->
+	<!-- <parameter name="url" value="http://demo.guru99.com/v4" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.bankguru.testcase.LogInScript" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+</suite> 

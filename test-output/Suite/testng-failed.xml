@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="2.46"/>
+  <parameter name="url" value="http://demo.guru99.com/v4"/>
+  <test name="Login guru on Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="2.46"/>
+    <parameter name="url" value="http://demo.guru99.com/v4"/>
+    <classes>
+      <class name="com.bankguru.testcase.EditCustomerScript">
+        <methods>
+          <include name="TC_05"/>
+          <include name="afterClass"/>
+          <include name="TC_04"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.bankguru.testcase.EditCustomerScript -->
+    </classes>
+  </test> <!-- Login guru on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

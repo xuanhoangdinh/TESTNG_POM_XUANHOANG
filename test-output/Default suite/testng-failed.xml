@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.bankguru.testcase.EditCustomerScript">
+        <methods>
+          <include name="TC_05"/>
+          <include name="TC_03"/>
+          <include name="TC_01"/>
+          <include name="TC_02"/>
+          <include name="TC_04"/>
+        </methods>
+      </class> <!-- com.bankguru.testcase.EditCustomerScript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
